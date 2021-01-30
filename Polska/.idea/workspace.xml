@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fb7b1a9-2f98-430b-8501-bc53106b31df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nmx2esKltMVh6qIv2kBBjTLn7h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Polska" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fb7b1a9-2f98-430b-8501-bc53106b31df" name="Default Changelist" comment="" />
+      <created>1612008861613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612008861613</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="243" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612012284496">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="243" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1612012284496" />
+    <state width="980" height="308" key="GridCell.Tab.0.bottom" timestamp="1612012792839">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="980" height="308" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612012792839" />
+    <state width="980" height="308" key="GridCell.Tab.0.center" timestamp="1612012792839">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="980" height="308" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612012792839" />
+    <state width="980" height="308" key="GridCell.Tab.0.left" timestamp="1612012792839">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="980" height="308" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612012792839" />
+    <state width="980" height="308" key="GridCell.Tab.0.right" timestamp="1612012792839">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="980" height="308" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612012792839" />
+    <state x="465" y="177" key="new project wizard" timestamp="1612008878653">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="465" y="177" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1612008878653" />
+  </component>
+</project>
