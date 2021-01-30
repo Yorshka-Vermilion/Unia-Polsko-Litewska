@@ -1,5 +1,7 @@
 package com.company;
 
+import com.produkty.ObslugaProduktow;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +16,6 @@ public class Serwer {
     ServerSocket serverSocket;
     boolean dziala = true;
     ArrayList<Thread> watki;
-    volatile LinkedList<Produkt> listaObiektow; // To trzeba ogarnac
     int aktualnaIloscWatkow;
 
     Serwer() {
@@ -31,6 +32,8 @@ public class Serwer {
 
     void start(){
         try {
+            ObslugaProduktow.wczytaj();
+            //ObslugaProduktow.WypiszListe();
             System.out.println(KOLORY.FIOLETOWY.kolor + "Serwer czeka na klienta..." + KOLORY.RESET.kolor);
             czekaj();
             serverSocket.close();
@@ -42,10 +45,10 @@ public class Serwer {
     boolean czekaj(){
         while(true) { // Czeka na klientow, trzeba ogarnac jakies wychodzenie, moze drugi watek poprostu w serwerze (jeden czeka na klienta czyli to nizej, drugi czeka na wprowadzenie komendy stop, potem wali interrupta na ten watek nizej i elo)
             try {
-                this.watki.add(new Thread(new SerwerThread(serverSocket.accept()))); // accept to funkcja blokujaca wie bedzie czekac az klient nie przyjdzie
+                this.watki.add(new Thread(new SerwerThread(serverSocket.accept(),aktualnaIloscWatkow))); // accept to funkcja blokujaca wie bedzie czekac az klient nie przyjdzie
                 this.watki.get(aktualnaIloscWatkow).start();
+                System.out.println(KOLORY.NIEBIESKI.kolor + "<" + this.aktualnaIloscWatkow + ">Podlaczono klienta" + KOLORY.RESET.kolor);
                 this.aktualnaIloscWatkow++;
-                System.out.println(KOLORY.NIEBIESKI.kolor + "Podlaczono klienta" + KOLORY.RESET.kolor);
             } catch (IOException e) {
                 e.printStackTrace();
             }

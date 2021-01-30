@@ -32,10 +32,14 @@ public class Klient {
             while(!(wiadomosc.trim().equals("STOP"))){ // com.company.Klient konczy prace na komende "STOP"
                     wiadomosc = scanner.nextLine();
                     ps.println(wiadomosc);
+
                     //Odpowiedz serwera
 
-                    //odpowiedz = br.readLine().trim();
-                    //System.out.println("ODpowiedz serwera: " + odpowiedz);
+                    while((odpowiedz = br.readLine()) != null) {
+                        if(odpowiedz.equals("KNW"))break;
+                        System.out.println(odpowiedz);
+                    }
+
 
                 }
             br.close();
