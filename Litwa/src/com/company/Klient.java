@@ -5,7 +5,6 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Klient {
-    public static final String ANSI_BLUE = "\u001B[34m";
     Socket socket;
     PrintStream ps;
     String wiadomosc,odpowiedz;
