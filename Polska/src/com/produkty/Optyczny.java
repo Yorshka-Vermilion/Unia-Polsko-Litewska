@@ -8,6 +8,7 @@ public abstract class Optyczny extends Produkt{
         super(id,dane,dostepnosc,producent);
         this.predkosc_obrotowa=predkosc_obrotowa;
         this.rodzaj_lasera=rodzaj_lasera;
+        this.kategoria = "Optyczny";
     }
 
     public String toString(){

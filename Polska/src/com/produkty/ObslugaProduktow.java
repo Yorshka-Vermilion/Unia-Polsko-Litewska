@@ -6,7 +6,7 @@ import com.produkty.ProduktCore;
 import java.util.LinkedList;
 
 public class ObslugaProduktow {
-    private static LinkedList<Produkt> lista = null;
+    private volatile static LinkedList<Produkt> lista = null;
 
     public static void wczytaj(){
         if(lista == null) {

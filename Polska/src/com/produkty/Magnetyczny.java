@@ -5,6 +5,7 @@ public abstract class Magnetyczny extends Produkt{
     Magnetyczny(int id, float dane[], boolean dostepnosc, String producent,String rodzaj_nosnika_danych){
         super(id,dane,dostepnosc,producent);
         this.rodzaj_nosnika_danych=rodzaj_nosnika_danych;
+        this.kategoria = "Magnetyczny";
     }
 
     public String toString(){

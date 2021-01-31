@@ -9,6 +9,7 @@ public abstract class Polprzewodnikowy extends Produkt{
         this.rodzaj_tranzystorow=rodzaj_tranzystorow;
         this.producent_tranzystorow=producent_tranzystorow;
         this.liczba_tranzystorow=liczba_tranzystorow;
+        this.kategoria = "Polprzewodnikowy";
     }
 
     public String toString(){

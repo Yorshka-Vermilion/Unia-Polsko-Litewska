@@ -4,7 +4,7 @@ public abstract class Produkt implements ProduktCore {
     int id;
     float szerokosc, wysokosc, glebokosc, waga, szybkosc_zapisu, szybkosc_odczytu, pojemnosc, cena;
     boolean dostepnosc;
-    String producent;
+    String producent,kategoria;
     Produkt(int id, float dane[], boolean dostepnosc, String producent){
         this.id=id;
         this.szerokosc=dane[0];
