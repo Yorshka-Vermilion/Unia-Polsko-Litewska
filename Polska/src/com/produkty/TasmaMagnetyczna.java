@@ -1,10 +1,8 @@
 package com.produkty;
 
-import com.company.KOLORY;
-
 public class TasmaMagnetyczna extends Magnetyczny {
-    int dlugosc;
-    boolean dwustronna;
+    private int dlugosc;
+    private boolean dwustronna;
     public TasmaMagnetyczna(int id, float dane[], boolean dostepnosc, String producent, String rodzaj_nosnika_danych, int dlugosc, boolean dwustronna){
         super(id,dane,dostepnosc,producent,rodzaj_nosnika_danych);
         this.dlugosc = dlugosc;

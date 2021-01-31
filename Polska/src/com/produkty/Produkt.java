@@ -1,10 +1,10 @@
 package com.produkty;
 
 public abstract class Produkt implements ProduktCore {
-    int id;
-    float szerokosc, wysokosc, glebokosc, waga, szybkosc_zapisu, szybkosc_odczytu, pojemnosc, cena;
-    boolean dostepnosc;
-    String producent,kategoria;
+    protected int id;
+    protected float szerokosc, wysokosc, glebokosc, waga, szybkosc_zapisu, szybkosc_odczytu, pojemnosc, cena;
+    protected boolean dostepnosc;
+    protected String producent,kategoria;
     Produkt(int id, float dane[], boolean dostepnosc, String producent){
         this.id=id;
         this.szerokosc=dane[0];
@@ -25,4 +25,8 @@ public abstract class Produkt implements ProduktCore {
                 " WAGA: " + this.waga + " SZYBKOSC ZAPISU: " + this.szybkosc_zapisu + " SZYBKOSC ODCZYTU: " + this.szybkosc_odczytu +
                 " POJEMNOSC: " + this.pojemnosc + " CENA: " + this.cena + " DOSTEPNOSC: " + this.dostepnosc + " PRODUCENT " + this.producent;
     }
+
+    public String getKategoria(){return this.kategoria;};
+
+    public float getCena(){return this.cena;};
 }

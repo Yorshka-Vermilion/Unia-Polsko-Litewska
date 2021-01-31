@@ -1,9 +1,7 @@
 package com.produkty;
 
-import com.company.KOLORY;
-
 public class Plyta extends Optyczny {
-    String typ; // DVD,CD,RW-DVD itp..
+    private String typ; // DVD,CD,RW-DVD itp..
     public Plyta(int id, float dane[], boolean dostepnosc, String producent, int predkosc_obrotowa, String rodzaj_lasera, String typ){
         super(id,dane,dostepnosc,producent,predkosc_obrotowa,rodzaj_lasera);
         this.typ = typ;

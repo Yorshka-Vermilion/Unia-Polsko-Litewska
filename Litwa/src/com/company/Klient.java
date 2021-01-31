@@ -48,7 +48,7 @@ public class Klient {
             ps.close();
             socket.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(KOLORY.CZERWONY.kolor + "POLACZENIE Z SERWEREM ZOSTALO PRZERWANE" + KOLORY.RESET.kolor);
         }
     }
 }

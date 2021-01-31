@@ -1,9 +1,8 @@
 package com.produkty;
 
-import com.company.KOLORY;
 
 public class Dyskietka extends Magnetyczny {
-    String material_krazka;
+    private String material_krazka;
 
     public Dyskietka(int id, float dane[], boolean dostepnosc, String producent, String rodzaj_nosnika_danych, String material_krazka){
         super(id,dane,dostepnosc,producent,rodzaj_nosnika_danych);

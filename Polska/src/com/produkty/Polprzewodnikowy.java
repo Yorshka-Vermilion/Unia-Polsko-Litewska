@@ -1,15 +1,15 @@
 package com.produkty;
 
 public abstract class Polprzewodnikowy extends Produkt{
-    String rodzaj_tranzystorow,producent_tranzystorow;
-    int liczba_tranzystorow;
+    protected String rodzaj_tranzystorow,producent_tranzystorow;
+    protected int liczba_tranzystorow;
 
     Polprzewodnikowy(int id, float dane[], boolean dostepnosc, String producent,String rodzaj_tranzystorow, String producent_tranzystorow, int liczba_tranzystorow){
         super(id,dane,dostepnosc,producent);
         this.rodzaj_tranzystorow=rodzaj_tranzystorow;
         this.producent_tranzystorow=producent_tranzystorow;
         this.liczba_tranzystorow=liczba_tranzystorow;
-        this.kategoria = "Polprzewodnikowy";
+        this.kategoria = "POLPRZEWODNIKOWY";
     }
 
     public String toString(){

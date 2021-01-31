@@ -1,9 +1,7 @@
 package com.produkty;
 
-import com.company.KOLORY;
-
 public class USB extends Polprzewodnikowy {
-    String interfejs;
+    private String interfejs;
 
     public USB(int id, float dane[], boolean dostepnosc, String producent, String rodzaj_tranzystorow, String producent_tranzystorow, int liczba_tranzystorow, String interfejs){
         super(id,dane,dostepnosc,producent,rodzaj_tranzystorow,producent_tranzystorow,liczba_tranzystorow);

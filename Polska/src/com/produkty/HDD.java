@@ -1,9 +1,8 @@
 package com.produkty;
 
-import com.company.KOLORY;
 
 public class HDD extends Magnetyczny {
-    int ilosc_glowic;
+    private int ilosc_glowic;
 
     public HDD(int id, float dane[], boolean dostepnosc, String producent, String rodzaj_nosnika_danych, int ilosc_glowic){
         super(id,dane,dostepnosc,producent,rodzaj_nosnika_danych);

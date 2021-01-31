@@ -2,21 +2,14 @@ package com.company;
 
 import com.produkty.ObslugaProduktow;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
 import java.net.ServerSocket;
-import java.net.Socket;
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 public class Serwer {
-    ServerSocket serverSocket;
-    boolean dziala = true;
-    ArrayList<Thread> watki;
-    int aktualnaIloscWatkow;
+    private ServerSocket serverSocket;
+    private ArrayList<Thread> watki;
+    private int aktualnaIloscWatkow;
 
     Serwer() {
         try {
@@ -33,7 +26,9 @@ public class Serwer {
     void start(){
         try {
             ObslugaProduktow.wczytaj();
-            //ObslugaProduktow.WypiszListe();
+            //ObslugaProduktow.WypiszListe(); // OK
+            //ObslugaProduktow.PosortujListeCena(false); // OK
+
             System.out.println(KOLORY.FIOLETOWY.kolor + "Serwer czeka na klienta..." + KOLORY.RESET.kolor);
             czekaj();
             serverSocket.close();

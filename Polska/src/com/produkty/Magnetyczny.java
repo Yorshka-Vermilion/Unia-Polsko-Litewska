@@ -1,11 +1,11 @@
 package com.produkty;
 
 public abstract class Magnetyczny extends Produkt{
-    String rodzaj_nosnika_danych; //Talerz, tasma
+    protected String rodzaj_nosnika_danych; //Talerz, tasma
     Magnetyczny(int id, float dane[], boolean dostepnosc, String producent,String rodzaj_nosnika_danych){
         super(id,dane,dostepnosc,producent);
         this.rodzaj_nosnika_danych=rodzaj_nosnika_danych;
-        this.kategoria = "Magnetyczny";
+        this.kategoria = "MAGNETYCZNY";
     }
 
     public String toString(){
