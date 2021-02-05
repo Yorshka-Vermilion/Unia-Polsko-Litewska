@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb7b1a9-2f98-430b-8501-bc53106b31df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Litwa/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Litwa/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Litwa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Litwa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Litwa/out/production/Litwa/com/company/Klient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Litwa/out/production/Litwa/com/company/Klient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Litwa/out/production/Litwa/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Litwa/out/production/Litwa/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +88,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="794" y="285" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2048.1112@0.0.2048.1112" timestamp="1612551172711" />
-    <state x="1081" y="369" key="FileChooserDialogImpl" timestamp="1612551089876">
+    <state x="1081" y="369" key="FileChooserDialogImpl" timestamp="1612551277999">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1081" y="369" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1612551089876" />
+    <state x="1081" y="369" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1612551277999" />
     <state width="2005" height="303" key="GridCell.Tab.0.bottom" timestamp="1612551172748">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

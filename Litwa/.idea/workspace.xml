@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fb1fb17-105e-48f8-86ee-2d638987e156" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Litwa/com/company/Klient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Litwa/com/company/Klient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/KOLORY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/KOLORY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Klient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/KOLORY.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/KOLORY.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/ObslugaPlikow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/ObslugaPlikow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/Serwer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/Serwer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/SerwerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/out/production/Polska/com/company/SerwerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/company/KOLORY.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/company/KOLORY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/company/ObslugaPlikow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/company/ObslugaPlikow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/company/Serwer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/company/Serwer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/company/SerwerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/company/SerwerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/Dyskietka.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/Dyskietka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/HDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/HDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/KartaPamieci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/KartaPamieci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/Magnetyczny.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/Magnetyczny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/NapedOptyczny.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/NapedOptyczny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/ObslugaProduktow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/ObslugaProduktow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/Optyczny.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/Optyczny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/Plyta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/Plyta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/Polprzewodnikowy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/Polprzewodnikowy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/Produkt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/Produkt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/ProduktCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/ProduktCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/RAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/RAM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/SSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/SSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/TasmaMagnetyczna.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/TasmaMagnetyczna.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polska/src/com/produkty/USB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polska/src/com/produkty/USB.java" afterDir="false" />
-    </list>
+    <list default="true" id="5fb1fb17-105e-48f8-86ee-2d638987e156" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +27,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true">
@@ -91,26 +62,30 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="959" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1612043080347" />
-    <state x="1317" y="311" key="FileChooserDialogImpl" timestamp="1612478557589">
+    <state x="1284" y="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612551334834">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1317" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1612478557589" />
-    <state width="979" height="304" key="GridCell.Tab.0.bottom" timestamp="1612549615961">
+    <state x="1284" y="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2048.1112@0.0.2048.1112" timestamp="1612551334834" />
+    <state x="1317" y="311" key="FileChooserDialogImpl" timestamp="1612551323389">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="979" height="304" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612549615961" />
-    <state width="979" height="304" key="GridCell.Tab.0.center" timestamp="1612549615960">
+    <state x="1317" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1612551323389" />
+    <state width="980" height="302" key="GridCell.Tab.0.bottom" timestamp="1612551334858">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="979" height="304" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612549615960" />
-    <state width="979" height="304" key="GridCell.Tab.0.left" timestamp="1612549615960">
+    <state width="980" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612551334858" />
+    <state width="980" height="302" key="GridCell.Tab.0.center" timestamp="1612551334857">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="979" height="304" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612549615960" />
-    <state width="979" height="304" key="GridCell.Tab.0.right" timestamp="1612549615960">
+    <state width="980" height="302" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612551334857" />
+    <state width="980" height="302" key="GridCell.Tab.0.left" timestamp="1612551334857">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="979" height="304" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612549615960" />
+    <state width="980" height="302" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612551334857" />
+    <state width="980" height="302" key="GridCell.Tab.0.right" timestamp="1612551334858">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="980" height="302" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612551334858" />
     <state width="982" height="374" key="GridCell.Tab.1.bottom" timestamp="1612044837136">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -127,5 +102,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="982" height="374" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612044837136" />
+    <state x="1010" y="131" key="SettingsEditor" timestamp="1612551288025">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1010" y="131" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1612551288025" />
   </component>
 </project>
