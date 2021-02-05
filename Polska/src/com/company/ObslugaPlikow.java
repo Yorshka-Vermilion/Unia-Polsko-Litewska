@@ -7,8 +7,20 @@ import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * Klasa obsługująca operacje związane z plikami zewnętrznymi.
+ */
 public class ObslugaPlikow {
+    /**
+     * Scanner sluzacy do odczytu tekstu z pliku
+     */
     private static Scanner scan;
+
+    /**
+     * Wczytuje dane z pliku
+     * @param sciezka Sciezka do pliku
+     * @return Lista produktow
+     */
     public static LinkedList<Produkt> wczytaj(String sciezka){
         File plik = new File(sciezka);
         LinkedList<Produkt> produkty = new LinkedList<>();
@@ -16,9 +28,10 @@ public class ObslugaPlikow {
             scan = new Scanner(plik);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.err.println("NIE ZNALEZIONO, LUB NIE MOZNA OTWORZYC PODANEGO PLIKU");
         }
         while(scan.hasNextLine()){
-            String[] tmp = scan.nextLine().split(",");
+            String[] tmp = scan.nextLine().split(","); //Wpisuje linijke z pliku do tablicy, funkcja split() rozdziela linijke tekstu podanym znakiem i zwraca tablice slow znajdujących się miedzy przecinkami
             if(tmp.length > 1) {
                 produkty.add(WczytajProdukt(tmp));
             }
@@ -26,10 +39,15 @@ public class ObslugaPlikow {
         return produkty;
     };
 
+    /**
+     * Wczytuje odpowiedni pojedynczy produkt z podanej tablicy String'ow
+     * @param dane Tablica string'ow
+     * @return Odpowiedni produkt przypisany na podstawie tablicy
+     */
     private static Produkt WczytajProdukt(String[] dane){
-        float[] daneFloat = new float[8];
+        float[] daneFloat = new float[8]; // Tablica na na typu float, potrzebna w celu uproszczenia przekazywania parematrow do klasy "Produkt".
         for(int i=0;i<8;i++){
-            daneFloat[i] = Float.parseFloat(dane[i+1]);
+            daneFloat[i] = Float.parseFloat(dane[i+1]); // i+1 dlatego, że pierwszy element tablicy "dane" to string (nazwa)
         }
         if(dane[0].equals("HDD") && dane.length == 14) {
             return new HDD(Integer.parseInt(dane[1]),

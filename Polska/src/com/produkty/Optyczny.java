@@ -1,9 +1,27 @@
 package com.produkty;
 
+/**
+ * Klasa abstrakcyjna zawierajaca wspolne pola dla wszystkich produktow sklasyfikowanych jako "OPTYCZNY"
+ */
 public abstract class Optyczny extends Produkt{
+    /**
+     * Predkosc obrotowa
+     */
     protected int predkosc_obrotowa;
-    protected String rodzaj_lasera; //Zwykly, blu-ray
+    /**
+     * Rodzaj lasera (zwyklu, blu-ray...)
+     */
+    protected String rodzaj_lasera;
 
+    /**
+     /**
+     * Konstruktor
+     * @param id id produktu
+     * @param dane tablica z danymi liczbowymi produktu
+     * @param dostepnosc dostepnosc produktu
+     * @param producent producent produktu
+     * @param rodzaj_lasera rodzaj lasera
+     */
     Optyczny(int id, float dane[], boolean dostepnosc, String producent,int predkosc_obrotowa,String rodzaj_lasera){
         super(id,dane,dostepnosc,producent);
         this.predkosc_obrotowa=predkosc_obrotowa;

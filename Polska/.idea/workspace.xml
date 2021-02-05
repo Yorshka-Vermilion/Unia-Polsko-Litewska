@@ -4,20 +4,23 @@
     <list default="true" id="8fb7b1a9-2f98-430b-8501-bc53106b31df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Litwa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Litwa/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Litwa/out/production/Litwa/com/company/Klient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Litwa/out/production/Litwa/com/company/Klient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Litwa/src/com/company/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Litwa/src/com/company/Klient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Polska/com/company/KOLORY.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/company/KOLORY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Polska/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Polska/com/company/ObslugaPlikow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/company/ObslugaPlikow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Polska/com/company/Serwer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/company/Serwer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Polska/com/company/SerwerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/company/SerwerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Polska/com/produkty/Magnetyczny.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/produkty/Magnetyczny.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Polska/com/produkty/ObslugaProduktow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/produkty/ObslugaProduktow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Polska/com/produkty/Optyczny.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/produkty/Optyczny.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Polska/com/produkty/Polprzewodnikowy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Polska/com/produkty/Polprzewodnikowy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/KOLORY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/KOLORY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ObslugaPlikow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ObslugaPlikow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Serwer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Serwer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/SerwerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SerwerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/plik.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/plik.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/produkty/Dyskietka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/Dyskietka.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/produkty/HDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/HDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/produkty/KartaPamieci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/KartaPamieci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/produkty/Magnetyczny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/Magnetyczny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/produkty/NapedOptyczny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/NapedOptyczny.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/produkty/ObslugaProduktow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/ObslugaProduktow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/produkty/Optyczny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/Optyczny.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/produkty/Plyta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/produkty/Plyta.java" afterDir="false" />
@@ -56,6 +59,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Litwa" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -90,37 +94,64 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1612031397478">
+    <state x="617" y="215" width="814" height="728" key="#Intentions" timestamp="1612542396062">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1612031397478" />
+    <state x="617" y="215" width="814" height="728" key="#Intentions/0.0.2048.1112@0.0.2048.1112" timestamp="1612542396062" />
+    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1612548567314">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="266" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1612548567314" />
     <state x="243" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612012284496">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="243" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1612012284496" />
-    <state x="300" y="311" key="FileChooserDialogImpl" timestamp="1612121523401">
+    <state x="300" y="311" key="FileChooserDialogImpl" timestamp="1612549339700">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="300" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1612121523401" />
-    <state width="2005" height="304" key="GridCell.Tab.0.bottom" timestamp="1612123020318">
+    <state x="300" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1612549339700" />
+    <state width="2005" height="303" key="GridCell.Tab.0.bottom" timestamp="1612547982804">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="304" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612123020318" />
-    <state width="2005" height="304" key="GridCell.Tab.0.center" timestamp="1612123020317">
+    <state width="2005" height="303" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612547982804" />
+    <state width="2005" height="303" key="GridCell.Tab.0.center" timestamp="1612547982804">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="304" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612123020317" />
-    <state width="2005" height="304" key="GridCell.Tab.0.left" timestamp="1612123020317">
+    <state width="2005" height="303" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612547982804" />
+    <state width="2005" height="303" key="GridCell.Tab.0.left" timestamp="1612547982804">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="304" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612123020317" />
-    <state width="2005" height="304" key="GridCell.Tab.0.right" timestamp="1612123020318">
+    <state width="2005" height="303" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612547982804" />
+    <state width="2005" height="303" key="GridCell.Tab.0.right" timestamp="1612547982804">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="304" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612123020318" />
+    <state width="2005" height="303" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612547982804" />
+    <state x="533" y="199" key="SettingsEditor" timestamp="1612542582752">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="533" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1612542582752" />
     <state x="465" y="177" key="new project wizard" timestamp="1612008878653">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="465" y="177" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1612008878653" />
+    <state x="767" y="175" key="refactoring.ChangeSignatureDialog" timestamp="1612543616003">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="767" y="175" key="refactoring.ChangeSignatureDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1612543616003" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1612543130037">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1612543130037" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/produkty/Produkt.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

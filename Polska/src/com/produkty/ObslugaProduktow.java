@@ -4,9 +4,18 @@ import com.company.ObslugaPlikow;
 
 import java.util.LinkedList;
 
+/**
+ * Klasa obslugujaca operacje na produktach
+ */
 public class ObslugaProduktow {
+    /**
+     * Lista produktow jakie sa zapisane w pliku z danymi
+     */
     private volatile static LinkedList<Produkt> lista = null;
 
+    /**
+     * Funkcja wczytuje dane z pliku do listy, wykorzystuje w tym celu funkcje wczytaj(String) znajdujacą sie w klasie ObslugaPlikow
+     */
     public static void wczytaj(){
         if(lista == null) {
             lista = new LinkedList<Produkt>();
@@ -16,25 +25,48 @@ public class ObslugaProduktow {
         }
     }
 
-    public static synchronized ProduktCore PobierzProduktIndex(int i){
+    /**
+     * Funkcja pobiera produkt z podanego indeksu
+     * @param i indeks
+     * @return Produkt
+     */
+    public static synchronized Produkt PobierzProduktIndex(int i){
         if(i < lista.size()) return lista.get(i);
         else return null;
     }
 
+    /**
+     * Funkcja zwraca wielkosc listy
+     * @return wielkosc listy
+     */
     public static synchronized int getSize(){
         return lista.size();
     }
 
+    /**
+     * Funkcja zwraca produkt o z podanego indeksu
+     * @param i indeks
+     * @return Produkt
+     */
     public static synchronized Produkt getProduktIndex(int i){
         if(i < getSize())return lista.get(i);
         System.err.println("Wystapil blad podczas proby wziecia produktu z listy produktow: INDEX NIE ISTNIEJE");
         return null;
     }
 
+    /**
+     * Funkcja pobiera pełną liste produktów znajdującą się aktualnie w systemie
+     * @return Lista produktow
+     */
     public static synchronized LinkedList<Produkt> PobierzListeProduktow(){
         return lista;
     }
 
+    /**
+     * Pobiera liste produktow z filtrowaniem wynikow z podanej w argumencie kategorii
+     * @param kategoria Kategoria do wyszukania
+     * @return Lista produktow
+     */
     public static synchronized LinkedList<Produkt> PobierzListeProduktowKategoria(String kategoria){ //Pobiera liste produktow z okreslonej kategorii (optyczny,polprzewodnikowy,magnetyczny)
         LinkedList<Produkt> tmp = new LinkedList<Produkt>();
         for(int i=0;i<getSize();i++){
@@ -43,6 +75,11 @@ public class ObslugaProduktow {
         return tmp;
     }
 
+    /**
+     * Funkcja zwraca posortowana liste pod wzgledem ceny, rosnaco lub malejąco
+     * @param rosnaca kolejnosc sortowania (True - rosnoco, false - malejąco)
+     * @return Posortowana lista produktow
+     */
     public static synchronized LinkedList<Produkt> PosortujListeCena(boolean rosnaca){ // Sortowanie po cenie
         float indeksy[][] = new float[getSize()][2];
         for(int i=0;i<getSize();i++){
@@ -52,6 +89,12 @@ public class ObslugaProduktow {
         return Sortuj(indeksy,rosnaca);
     }
 
+    /**
+     * Funkcja sluzy do sortowania listy
+     * @param indeksy tablica z indeksami produktow do posortowania
+     * @param rosnaca kolejnosc sortowania (True - rosnoco, false - malejąco)
+     * @return Posortowana lista produktow
+     */
     private static LinkedList<Produkt> Sortuj(float indeksy[][],boolean rosnaca){
         LinkedList<Produkt> tmp = new LinkedList<Produkt>();
 
@@ -87,6 +130,9 @@ public class ObslugaProduktow {
         return tmp;
     };
 
+    /**
+     * Funkcja wypisujaca na serwerze cala liste produktow
+     */
     public static void WypiszListe(){
         for(int i=0;i<lista.size();i++){
             if(lista.get(i)!=null) {
