@@ -1,2 +1,2 @@
 # Unia-Polsko-Litewska
-Projekt komunikatora tekstowego w języku Java.
+Projekt sklepu z częściami komputerowymi oraz komunikatora w języku Java.
